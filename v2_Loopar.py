@@ -40,7 +40,11 @@
 #     iteration=iteration+1
 # print (f"Summan av dina tal är {talSumma}")
 
-# Loop#5
 
-while True:
-    tal=
+# # Loop#5
+# tal=int(input("Mata in ett tal: "))
+# while tal>0:
+#     print(tal)
+#     tal=tal-1
+
+# Loop#5
