@@ -40,11 +40,21 @@
 #     iteration=iteration+1
 # print (f"Summan av dina tal är {talSumma}")
 
-
 # # Loop#5
 # tal=int(input("Mata in ett tal: "))
 # while tal>0:
 #     print(tal)
 #     tal=tal-1
 
-# Loop#5
+# Loop#6
+import random
+dice1=0
+while True:
+    dice1=random.randint(1,6)
+    dice2=random.randint(1,6)
+    print("rolling the dices")
+    print (f"The values are...\n{dice1} and {dice2}")
+    sel=input("Roll the dices again y/n ?: ")
+    if sel=="n":
+        break
+    else:continue
