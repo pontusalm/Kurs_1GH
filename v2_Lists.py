@@ -28,11 +28,36 @@
 # print(f"Det största talet är {largest}")
 
 # Lists#4
-stränglista=["abc","xyz","aba","1221","hammarbyh"]
-antal=0
-for sträng in stränglista:
-    if len(sträng)>=2 and (sträng[0]==sträng[-1]):
-        antal=antal+1
-print(antal)
+# stränglista=["abc","xyz","aba","1221","hammarbyh"]
+# antal=0
+# for sträng in stränglista:
+#     if len(sträng)>=2 and (sträng[0]==sträng[-1]):
+#         antal=antal+1
+# print(antal)
+
+# Lists#5
+# stränglista=["abc","xyz","abc","1221","hammarbyh"]
+# stränglistaNoDup=set(stränglista)
+# print(stränglistaNoDup)
+
+# #Alternativ lösning.
+# talLista = [12,34,566,1,56,5,1,34,55]
+# talListaNy = []
+# for x in talLista:
+#     if not x in talListaNy:
+#         talListaNy.append(x)
+# print(talListaNy)
+
+# Lists#6
+# stränglista=["abc","xy","abc","1221","hammarbyh","Oslo","Göteborg"]
+# stränglistaNy=[]
+# ordlängd=int(input("Hur långa ord vill du ta fram? "))
+# for sträng in stränglista:
+#     if len(sträng)>=ordlängd:
+#         stränglistaNy.append(sträng)
+#     else:continue
+# print(stränglistaNy)
+
+# Lists#6
 
 
